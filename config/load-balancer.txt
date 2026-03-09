@@ -1,0 +1,9 @@
+Load Balancer Type: Application Load Balancer
+Scheme: internet-facing
+Listeners:
+- HTTP 80
+
+Target Group:
+- Protocol: HTTP
+- Port: 80
+- Health Check Path: /health

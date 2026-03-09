@@ -1,0 +1,7 @@
+Application Tier
+- 2 app servers planned in subnet 1a
+- 2 app servers planned in subnet 1b
+
+Data Tier
+- 1 database placeholder instance planned in data-subnet-1a
+- 1 standby placeholder described in architecture design
